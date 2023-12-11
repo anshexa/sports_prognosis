@@ -7,7 +7,7 @@ $APPLICATION->IncludeComponent(
         "COMPONENT_TEMPLATE" => ".default",
         'CONTAINER_ID' => 'header-search-container',
         'RESULT_CONTAINER_ID' => 'search-result-wrap',
-        "NUM_CATEGORIES" => "2",
+        "NUM_CATEGORIES" => "3",
         "TOP_COUNT" => "5",
         "ORDER" => "rank",
         "USE_LANGUAGE_GUESS" => "N",
@@ -30,6 +30,13 @@ $APPLICATION->IncludeComponent(
         ),
         "CATEGORY_1_TOP_COUNT" => 10,
         "CATEGORY_1_ORDER" => "date",
+        "CATEGORY_2_TITLE" => "Лиги",
+        "CATEGORY_2" => array(
+            0 => "iblock_EVENTS",
+        ),
+        "CATEGORY_2_iblock_EVENTS" => array(
+            0 => "41",
+        ),
     ),
     false
 );
